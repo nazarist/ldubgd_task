@@ -1,4 +1,4 @@
-public class Main {
+public class Task_1 {
     public static void main(String[] args) {
         int n = 21;
         if ((n > 25) && (n < 100)) {
