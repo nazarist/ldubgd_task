@@ -1,4 +1,4 @@
-public class Task1 { public static void main(String[] args) {
+public class Task_1 { public static void main(String[] args) {
     int[] mine = new int[50];
     int num = 1;
     for (int i = 0; i < 50; i++) {
