@@ -10,12 +10,12 @@ public class Task2 {
         int b = ilyasevich.nextInt();
 
         int c = (int) Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
-        System.out.println("Довжину гіпотенузи дорівнює:" + c);
+        System.out.println("Довжина гіпотенузи дорівнює:" + c);
 
         double p = (double) a + b + c;
-        double s = (double) (a*b)/2;
+        double s = (double) (a * b) / 2;
 
-        System.out.println("Периметр трикутника дорівнює:" + p);
-        System.out.println("Площа трикутника дорівнює:" + s);
+        System.out.println("Периметр трикутника: " + p);
+        System.out.println("Площа трикутника: " + s);
     }
 }
