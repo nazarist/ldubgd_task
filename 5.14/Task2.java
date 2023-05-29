@@ -8,6 +8,5 @@ public class Task2 {
             String word = name.next();
             System.out.println("Перша літера слова " + i + ": " + word.substring(0, 1));
         }
-
-}
+    }
 }

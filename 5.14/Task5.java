@@ -10,13 +10,10 @@ public class Task5 {
         System.out.println("Введіть, будь ласка, другий рядок:");
         String secondSentence = ilyasevich.nextLine();
 
-        int a = firstSentence.length();
-        int b = secondSentence.length();
-        if (a>b){
+        if (firstSentence.length() > secondSentence.length()){
             System.out.println("Перший рядок більший за другий");
         } else{
             System.out.println("Другий рядок більший за перший");
         }
-
     }
 }

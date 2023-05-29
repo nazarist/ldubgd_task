@@ -10,6 +10,6 @@ public class Task1 {
             String word = name.next();
             sentence = sentence.concat(word + " ");
         }
-        System.out.println(sentence.trim() + ".");
+        System.out.println(sentence);
     }
 }

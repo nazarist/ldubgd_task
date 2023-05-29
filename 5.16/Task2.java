@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class Task2 {
     public static void main(String[] args) {
-        Scanner ilyasevich = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Введіть довжину першого катету:");
-        int a = ilyasevich.nextInt();
+        int a = scanner.nextInt();
 
         System.out.println("Введіть довжину другого катету:");
-        int b = ilyasevich.nextInt();
+        int b = scanner.nextInt();
 
         int c = (int) Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
         System.out.println("Довжина гіпотенузи дорівнює:" + c);

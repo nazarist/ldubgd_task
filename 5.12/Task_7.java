@@ -10,9 +10,10 @@ public class Task_7 {
             }
         }
 
-        int sum = 0;
+
         int maxsum = 0;
         for (int i =0; i< array.length; i++) {
+             int sum = 0;
             for (int j = 0; j < array[i].length; j++) {
                 sum += array[i][j];
             }

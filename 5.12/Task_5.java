@@ -21,6 +21,6 @@ public class Task_5 {
         }
 
         System.out.println();
-        System.out.println("У цьому масиві" +" " + counter +" "+"парних чисел");
+        System.out.println("У цьому масиві " + counter +" парних чисел");
     }
 }

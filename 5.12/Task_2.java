@@ -9,7 +9,6 @@ public class Task_2 {
             System.out.println(mine[i] + "");
         }
 
-        System.out.println();
         System.out.println("Оновлений масив:");
         for (int i=0; i<20; i+=2 ){
             mine[i]=0;
